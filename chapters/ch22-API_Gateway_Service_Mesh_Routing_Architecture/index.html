@@ -1773,6 +1773,28 @@
 
 
 <h1 id="lesson-22-api-gateway-service-mesh-routing-architecture">🌐 <strong>Lesson 22: API Gateway + Service Mesh Routing Architecture</strong><a class="headerlink" href="#lesson-22-api-gateway-service-mesh-routing-architecture" title="Permanent link">&para;</a></h1>
+<pre class="mermaid"><code>graph LR
+    root["🌐 Lesson 22: API Gateway + Service Mesh Routing Architecture"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --&gt; node_0["⭐ Why Do We Need BOTH?"]
+    node_0 --&gt; node_1["🚪 API Gateway = External Door"]
+    node_0 --&gt; node_2["🔀 Service Mesh = Internal Smart Network"]
+    root --&gt; node_3["🏗️ Let’s Build a REAL ARCHITECTURE"]
+    root --&gt; node_4["🧱 PART 1 — Install Istio (Service Mesh)"]
+    root --&gt; node_5["🧱 PART 2 — Label Namespace for Sidecar Injection"]
+    root --&gt; node_6["🧱 PART 3 — Deploy Microservices into the Mesh"]
+    node_2 --&gt; node_7["Backend"]
+    node_2 --&gt; node_8["Frontend"]
+    root --&gt; node_9["🧱 PART 4 — API Gateway (External Entry)"]
+    node_9 --&gt; node_10["OPTION A — Istio Gateway (built-in)"]
+    node_10 --&gt; node_11["Step 1: Create Gateway"]
+    node_9 --&gt; node_12["🧱 PART 5 — Route Internet → Frontend → Backend"]
+    root --&gt; node_13["🔐 PART 6 — Add TLS (HTTPS)"]
+    root --&gt; node_14["🛡️ PART 7 — Apply Zero-Trust Security (mTLS)"]
+    root --&gt; node_15["🛡️ PART 8 — Apply Service-to-Service Authorization (RBAC)"]
+    root --&gt; node_16["🎯 FULL ARCHITECTURE YOU JUST BUILT"]
+    root --&gt; node_17["🎉 Lesson 22 Completed!"]
+    root --&gt; node_18["👉 Ready for Lesson 23?"]</code></pre>
 <p>Absolutely! ✔️
 Welcome to <strong>Lesson 22</strong> — this one is CRITICAL if you're building real microservices or enterprise-grade Kubernetes:</p>
 <p>This is how modern companies like Netflix, Google, Uber, Amazon, and Airbnb manage traffic:</p>

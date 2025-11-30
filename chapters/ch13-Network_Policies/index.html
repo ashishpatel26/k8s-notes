@@ -1773,6 +1773,23 @@
 
 
 <h1 id="lesson-13-network-policies-kubernetes-firewalls">🔒 Lesson 13: <strong>Network Policies — Kubernetes Firewalls</strong><a class="headerlink" href="#lesson-13-network-policies-kubernetes-firewalls" title="Permanent link">&para;</a></h1>
+<pre class="mermaid"><code>graph LR
+    root["🔒 Lesson 13: Network Policies — Kubernetes Firewalls"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --&gt; node_0["⭐ Why Network Policies Matter"]
+    root --&gt; node_1["🧱 Step 1 — Prerequisite: Network Policy Engine"]
+    root --&gt; node_2["🟦 Step 2 — Understand Label-Based Traffic Control"]
+    root --&gt; node_3["🚫 Step 3 — Default Deny Policy"]
+    root --&gt; node_4["🟢 Step 4 — Allow Frontend → Backend Only"]
+    root --&gt; node_5["🔐 Step 5 — Allow Backend → Database Only"]
+    root --&gt; node_6["🌎 Step 6 — Allow Egress to Internet (Optional)"]
+    root --&gt; node_7["🧪 Step 7 — Testing Network Policies (Fun!)"]
+    node_7 --&gt; node_8["Test allowed traffic:"]
+    node_7 --&gt; node_9["Test blocked traffic:"]
+    node_7 --&gt; node_10["Test random pod:"]
+    root --&gt; node_11["🔥 Real-World Network Policy Architecture"]
+    root --&gt; node_12["🎉 Lesson 13 Completed!"]
+    root --&gt; node_13["👉 Ready for Lesson 14?"]</code></pre>
 <p>Amazing! ✔️</p>
 <p>Welcome to <strong>Lesson 13</strong>, and this one takes you deeper into <em>cluster security</em> — something every real DevOps/SRE must master:</p>
 <p>Network Policies control <strong>which Pods can talk to which Pods</strong>.</p>

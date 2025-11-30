@@ -1773,6 +1773,37 @@
 
 
 <h1 id="lesson-35-full-production-microservices-architecture-end-to-end-blueprint">🏗️ Lesson 35: <strong>Full Production Microservices Architecture (End-to-End Blueprint)</strong><a class="headerlink" href="#lesson-35-full-production-microservices-architecture-end-to-end-blueprint" title="Permanent link">&para;</a></h1>
+<pre class="mermaid"><code>graph LR
+    root["🏗️ Lesson 35: Full Production Microservices Architecture (End-to-End Blueprint)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --&gt; node_0["🌐 Full Architecture Overview (High-Level Diagram)"]
+    root --&gt; node_1["🧱 PART 1 — Traffic Layer"]
+    node_1 --&gt; node_2["🌐 1. Ingress / API Gateway"]
+    root --&gt; node_3["🧱 PART 2 — Service Mesh Layer (Istio)"]
+    root --&gt; node_4["🧱 PART 3 — Microservices Layer"]
+    root --&gt; node_5["🧱 PART 4 — Data Layer"]
+    root --&gt; node_6["🧱 PART 5 — Secrets &amp; Config Management"]
+    node_2 --&gt; node_7["🔐 External Secrets Operator (BEST)"]
+    node_2 --&gt; node_8["🔐 SealedSecrets"]
+    node_2 --&gt; node_9["🔐 Vault (HashiCorp)"]
+    root --&gt; node_10["🧱 PART 6 — CI/CD + GitOps Pipeline"]
+    root --&gt; node_11["🧱 PART 7 — Observability Stack"]
+    node_2 --&gt; node_12["Metrics:"]
+    node_2 --&gt; node_13["Logs:"]
+    node_2 --&gt; node_14["Tracing:"]
+    node_2 --&gt; node_15["Visualization:"]
+    root --&gt; node_16["🧱 PART 8 — Resilience &amp; Reliability Layer"]
+    node_2 --&gt; node_17["✔️ Retries"]
+    node_2 --&gt; node_18["✔️ Circuit breakers"]
+    node_2 --&gt; node_19["✔️ Outlier detection"]
+    node_2 --&gt; node_20["✔️ Pod disruption budgets"]
+    node_2 --&gt; node_21["✔️ Health probes"]
+    node_2 --&gt; node_22["✔️ Graceful shutdown"]
+    node_2 --&gt; node_23["✔️ Rate limiting"]
+    root --&gt; node_24["🧱 PART 9 — Multi-Cluster / Global Architecture"]
+    root --&gt; node_25["🧱 PART 10 — Security Model"]
+    root --&gt; node_26["🎉 Lesson 35 Completed!"]
+    root --&gt; node_27["👉 Ready for Lesson 36?"]</code></pre>
 <p>Perfect! ✔️</p>
 <p>Welcome to <strong>Lesson 35</strong>, and this one is <em>HUGE</em> because it brings everything together into a <strong>real-world, production-ready blueprint</strong> used by FAANG-level companies:</p>
 <p>This is EXACTLY how companies like Netflix, Uber, Shopify, Coinbase, and Amazon structure their production systems.</p>

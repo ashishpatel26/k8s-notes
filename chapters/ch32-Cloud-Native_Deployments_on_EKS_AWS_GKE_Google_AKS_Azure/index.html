@@ -1773,6 +1773,38 @@
 
 
 <h1 id="lesson-32-cloud-native-deployments-on-eks-aws-gke-google-aks-azure">☁️ Lesson 32: <strong>Cloud-Native Deployments on EKS (AWS), GKE (Google), AKS (Azure)</strong><a class="headerlink" href="#lesson-32-cloud-native-deployments-on-eks-aws-gke-google-aks-azure" title="Permanent link">&para;</a></h1>
+<pre class="mermaid"><code>graph LR
+    root["☁️ Lesson 32: Cloud-Native Deployments on EKS (AWS), GKE (Google), AKS (Azure)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --&gt; node_0["🌍 SECTION 1 — Amazon EKS (AWS)"]
+    root --&gt; node_1["⭐ Why companies love EKS:"]
+    root --&gt; node_2["🧱 1. Create EKS Cluster (eksctl)"]
+    root --&gt; node_3["🧱 2. Add Spot Node Pool (70–90% cheaper)"]
+    root --&gt; node_4["🧱 3. Deploy LoadBalancer Service"]
+    root --&gt; node_5["🧱 4. EKS Ingress (ALB Ingress Controller)"]
+    root --&gt; node_6["🧱 5. IAM Roles for Service Accounts (IRSA)"]
+    root --&gt; node_7["☁️ SECTION 2 — Google GKE (GCP)"]
+    root --&gt; node_8["⭐ Why companies love GKE:"]
+    root --&gt; node_9["🧱 1. Create GKE Cluster"]
+    root --&gt; node_10["🧱 2. Add Node Pools"]
+    root --&gt; node_11["🧱 3. GKE Ingress (Google Cloud LB)"]
+    root --&gt; node_12["🧱 4. Workload Identity (NO service keys)"]
+    root --&gt; node_13["☁️ SECTION 3 — Azure AKS"]
+    root --&gt; node_14["⭐ Why companies choose AKS:"]
+    root --&gt; node_15["🧱 1. Create AKS Cluster"]
+    root --&gt; node_16["🧱 2. Add Spot Node Pool"]
+    root --&gt; node_17["🧱 3. AKS Ingress (Application Gateway Ingress Controller)"]
+    root --&gt; node_18["🧱 4. Azure AD Pod Identity"]
+    root --&gt; node_19["🌐 SECTION 4 — Cross-Cloud Best Practices"]
+    node_19 --&gt; node_20["✔️ 1. Use Terraform for Infra"]
+    node_19 --&gt; node_21["✔️ 2. Use ArgoCD for GitOps"]
+    node_19 --&gt; node_22["✔️ 3. Use Cluster Autoscaler"]
+    node_19 --&gt; node_23["✔️ 4. Use Spot nodes for 70% of workloads"]
+    node_19 --&gt; node_24["✔️ 5. Use managed services for:"]
+    node_19 --&gt; node_25["✔️ 6. Use Service Mesh (Istio/Cilium)"]
+    node_19 --&gt; node_26["✔️ 7. Standard folder layout"]
+    root --&gt; node_27["🎉 Lesson 32 Completed!"]
+    root --&gt; node_28["👉 Ready for Lesson 33?"]</code></pre>
 <p>Absolutely! ✔️</p>
 <p>Welcome to <strong>Lesson 32</strong>, and this one is MASSIVE — because now we take everything you learned and apply it to <strong>real cloud platforms</strong>:</p>
 <p>This lesson teaches you exactly how REAL companies deploy Kubernetes clusters in the cloud — with best practices for each provider.</p>
