@@ -1,0 +1,150 @@
+site_name: Kubernetes Notes - Complete Learning Path
+site_description: Comprehensive guide to Kubernetes from beginner to advanced production concepts
+site_author: K8s Learning Team
+site_url: https://ashishpatel26.github.io/k8s-notes/
+
+# Repository information
+repo_name: ashishpatel26/k8s-notes
+repo_url: https://github.com/ashishpatel26/k8s-notes
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/kubernetes
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - 🌟 Beginner Level:
+    - Introduction to Kubernetes: chapters/ch1-Introduction_k8s.md
+    - Pods: chapters/ch2-pods.md
+    - ConfigMaps & Secrets: chapters/ch3-ConfigMaps_Secrets_Beginner_Friendly.md
+    - Ingress: chapters/ch4_Ingress_Real_Web_Access_Domains_HTTPS.md
+    - Persistent Volumes: chapters/ch5-Persistent_Volumes_Storage_for_Databases_Apps.md
+    - Docker Build Push Deploy: chapters/ch6-Docker_Build_Push_Deploy_to_Kubernetes.md
+    - Helm Charts: chapters/ch7-Helm_Charts_Professional_Kubernetes_Packaging.md
+    - Horizontal Pod Autoscaler (HPA): chapters/ch8-Horizontal_Pod_Autoscaler_HPA.md
+    - Namespaces: chapters/ch9-Namespaces_Dev_Stage_Prod_Environments.md
+    - Kustomize: chapters/ch10-Kustomize.md
+  - 🔧 Intermediate Level:
+    - StatefulSets: chapters/ch11-StatefulSets.md
+    - CI/CD Pipeline: chapters/ch12-CICD_Pipeline_GitHub_Actions_Docker_Kubernetes.md
+    - Network Policies: chapters/ch13-Network_Policies.md
+    - Sealed Secrets: chapters/ch14-Sealed_Secrets_Safely_Managing_Kubernetes_Secrets_in_Git.md
+    - Prometheus + Grafana: chapters/ch15-Prometheus_Grafana_Full_Kubernetes_Monitoring_Stack.md
+    - Istio Service Mesh: chapters/ch16-Istio_Service_Mesh_Traffic_Control_mTLS_Observability.md
+    - Full Production Deployment: chapters/ch17-Full_Production_Kubernetes_Deployment_Real-World_Project.md
+    - Kubernetes Security: chapters/ch18-Kubernetes_Security_RBAC_Pod_Security_OPA_Gatekeeper.md
+    - Logging Stack: chapters/ch19-Logging_Stack_Loki_Promtail_Grafana_Logs.md
+    - Advanced Autoscaling: chapters/ch20-Advanced_Autoscaling_HPA_VPA_KEDA_Event-Driven_Scaling.md
+  - 🚀 Advanced Level:
+    - Zero-Downtime Deployments: chapters/ch21-Zero-Downtime-Deployments-BlueGreen-Canary-Releases.md
+    - API Gateway + Service Mesh: chapters/ch22-API_Gateway_Service_Mesh_Routing_Architecture.md
+    - Backups + Disaster Recovery: chapters/ch23-Kubernetes_Backups_Disaster_Recovery_with_Velero.md
+    - GitOps with ArgoCD: chapters/ch24-GitOps_with_ArgoCD_Full_Kubernetes_Automation.md
+    - CIS Kubernetes Hardening: chapters/ch25-CIS_Kubernetes_Hardening_Deep_Production_Security.md
+    - Multi-Cluster Architecture: chapters/ch26-Multi-Cluster_Kubernetes_Architecture_Global_Enterprise_Grade.md
+    - Cost Optimization & FinOps: chapters/ch27-Kubernetes_Cost_Optimization_FinOps_Real_Cloud_Savings.md
+    - Cluster Autoscaler: chapters/ch28-Cluster_Autoscaler_Node_Pool_Scaling_full_deep_dive.md
+    - Secure Supply Chain: chapters/ch29-Secure_Supply_Chain_Image_Signing_SBOM_Scanning_SLSA-Ready.md
+    - Service Mesh Advanced: chapters/ch30-Service_Mesh_Advanced_Traffic_Shadowing_mTLS_Rotation_Circuit_Breakers_Retries.md
+    - Performance Tuning: chapters/ch31-Kubernetes_Performance_Tuning_High-Speed_Clusters.md
+    - Cloud-Native Deployments: chapters/ch32-Cloud-Native_Deployments_on_EKS_AWS_GKE_Google_AKS_Azure.md
+    - Networking Deep Dive: chapters/ch33-Kubernetes_Networking_Deep_Dive_CNI_eBPF_routing.md
+    - Debugging Like a PRO: chapters/ch34-Debugging_Kubernetes_Like_a_PRO_Advanced_Troubleshooting.md
+    - Full Production Microservices: chapters/ch35-Full_Production_Microservices_Architecture_Complete_Blueprint.md
+  - 📚 Resources:
+    - Cheat Sheets: resources/cheat-sheets.md
+    - Best Practices: resources/best-practices.md
+    - Troubleshooting Guide: resources/troubleshooting.md
+    - Glossary: resources/glossary.md
+
+# Copyright
+copyright: Copyright &copy; 2025 K8s Learning Team
+
+# Social links
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ashishpatel26
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/ashishpatel2604
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/GenAIArchitect
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/ashishpatel26
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com
