@@ -2160,17 +2160,21 @@ kubectl<span class="w"> </span>config<span class="w"> </span>set-context<span cl
 kubectl<span class="w"> </span>apply<span class="w"> </span>-f<span class="w"> </span>deployment.yaml<span class="w"> </span>-n<span class="w"> </span>&lt;namespace-name&gt;
 </code></pre></div>
 <h2 id="common-troubleshooting-commands">Common Troubleshooting Commands<a class="headerlink" href="#common-troubleshooting-commands" title="Permanent link">&para;</a></h2>
-<p>```bash</p>
-<h1 id="get-all-resources-in-namespace">Get all resources in namespace<a class="headerlink" href="#get-all-resources-in-namespace" title="Permanent link">&para;</a></h1>
-<p>kubectl get all</p>
-<h1 id="get-events">Get events<a class="headerlink" href="#get-events" title="Permanent link">&para;</a></h1>
-<p>kubectl get events</p>
-<h1 id="check-pod-status-with-previous-state">Check pod status with previous state<a class="headerlink" href="#check-pod-status-with-previous-state" title="Permanent link">&para;</a></h1>
-<p>kubectl get pods --show-labels</p>
-<h1 id="check-pod-readiness">Check pod readiness<a class="headerlink" href="#check-pod-readiness" title="Permanent link">&para;</a></h1>
-<p>kubectl get pods -o jsonpath='{.items[<em>].status.containerStatuses[</em>].ready}'</p>
-<h1 id="check-pod-restarts">Check pod restarts<a class="headerlink" href="#check-pod-restarts" title="Permanent link">&para;</a></h1>
-<p>kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Get all resources in namespace</span>
+kubectl<span class="w"> </span>get<span class="w"> </span>all
+
+<span class="c1"># Get events</span>
+kubectl<span class="w"> </span>get<span class="w"> </span>events
+
+<span class="c1"># Check pod status with previous state</span>
+kubectl<span class="w"> </span>get<span class="w"> </span>pods<span class="w"> </span>--show-labels
+
+<span class="c1"># Check pod readiness</span>
+kubectl<span class="w"> </span>get<span class="w"> </span>pods<span class="w"> </span>-o<span class="w"> </span><span class="nv">jsonpath</span><span class="o">=</span><span class="s1">&#39;{.items[*].status.containerStatuses[*].ready}&#39;</span>
+
+<span class="c1"># Check pod restarts</span>
+kubectl<span class="w"> </span>get<span class="w"> </span>pods<span class="w"> </span>--sort-by<span class="o">=</span><span class="s1">&#39;.status.containerStatuses[0].restartCount&#39;</span>
+</code></pre></div>
 
 
 
