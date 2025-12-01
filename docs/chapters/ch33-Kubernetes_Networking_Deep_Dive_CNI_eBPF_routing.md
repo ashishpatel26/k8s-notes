@@ -1,5 +1,30 @@
 # 🌐 Lesson 33: **Kubernetes Networking Deep Dive (CNI, Routing, Services, Overlays, eBPF)**
 
+```mermaid
+graph LR
+    root["🌐 Lesson 33: Kubernetes Networking Deep Dive (CNI, Routing, Services, Overlays, eBPF)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Kubernetes Networking is Hard"]
+    root --> node_1["🧱 PART 1 — Pod-to-Pod Networking"]
+    root --> node_2["🧱 PART 2 — What is a CNI?"]
+    root --> node_3["🧱 PART 3 — Overlay Networks (VXLAN)"]
+    root --> node_4["🧱 PART 4 — Service Networking"]
+    root --> node_5["⭐ How a ClusterIP works"]
+    root --> node_6["🧱 PART 5 — kube-proxy"]
+    node_6 --> node_7["Mode 1: IPTables (older)"]
+    node_6 --> node_8["Mode 2: IPVS (faster)"]
+    node_6 --> node_9["Mode 3: eBPF (next generation)"]
+    root --> node_10["🧱 PART 6 — DNS Inside Kubernetes (CoreDNS)"]
+    root --> node_11["🧱 PART 7 — NodePort Internals"]
+    root --> node_12["🧱 PART 8 — LoadBalancer Services (Cloud)"]
+    root --> node_13["🧱 PART 9 — Network Policies"]
+    root --> node_14["🧱 PART 10 — Cilium (eBPF Superpowers)"]
+    root --> node_15["🧪 Bonus: Full Traffic Flow Example"]
+    root --> node_16["🎉 Lesson 33 Completed!"]
+    root --> node_17["👉 Ready for Lesson 34?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 33** — and this one is ESSENTIAL for every real DevOps/SRE professional:

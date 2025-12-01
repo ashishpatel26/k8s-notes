@@ -1,5 +1,26 @@
 # 🏭 **Lesson 17: Full Production Kubernetes Deployment (Real-World Project)**
 
+```mermaid
+graph LR
+    root["🏭 Lesson 17: Full Production Kubernetes Deployment (Real-World Project)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Project Overview"]
+    root --> node_1["🧱 Step 1 — Production Folder Structure"]
+    root --> node_2["🧩 Step 2 — Backend Deployment (Production-Grade)"]
+    root --> node_3["🧩 Step 3 — Frontend Deployment"]
+    root --> node_4["🗄️ Step 4 — Database (StatefulSet)"]
+    root --> node_5["🌍 Step 5 — Production Ingress + TLS"]
+    root --> node_6["⚡ Step 6 — Autoscaling (HPA)"]
+    root --> node_7["🧩 Step 7 — Kustomize Overlays"]
+    node_7 --> node_8["dev overlay"]
+    node_7 --> node_9["stage overlay"]
+    node_7 --> node_10["prod overlay"]
+    root --> node_11["🚀 Step 8 — Deploying the Full Stack"]
+    root --> node_12["🎉 Lesson 17 Completed!"]
+    root --> node_13["👉 Ready for Lesson 18?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 17**, and this one is a **BIG milestone** — we are now building a **FULL PRODUCTION-GRADE KUBERNETES DEPLOYMENT**.

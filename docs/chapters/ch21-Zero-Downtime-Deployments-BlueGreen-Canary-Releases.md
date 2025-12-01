@@ -1,5 +1,32 @@
 # 🚀 Lesson 21: **Zero-Downtime Deployments — Blue/Green & Canary Releases**
 
+```mermaid
+graph LR
+    root["🚀 Lesson 21: Zero-Downtime Deployments — Blue/Green & Canary Releases"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Do We Need Zero-Downtime Deployments?"]
+    root --> node_1["🎯 TWO Major Strategies"]
+    node_1 --> node_2["1️⃣ Blue/Green Deployment"]
+    node_1 --> node_3["2️⃣ Canary Deployment"]
+    root --> node_4["🧱 PART 1 — Blue/Green Deployment (Simple & Powerful)"]
+    node_3 --> node_5["Goal:"]
+    node_4 --> node_6["🧩 Step 1 — Blue Deployment (stable version)"]
+    node_4 --> node_7["🧩 Step 2 — Green Deployment (new version)"]
+    root --> node_8["🛰️ Step 3 — Service Points to ONE Version"]
+    root --> node_9["🔄 Step 4 — Switch Blue → Green"]
+    root --> node_10["🚨 Step 5 — Instant Rollback"]
+    root --> node_11["🧱 PART 2 — Canary Deployment"]
+    node_11 --> node_12["🧩 Step 1 — v1 Deployment"]
+    node_11 --> node_13["🧩 Step 2 — v2 Deployment"]
+    root --> node_14["🚦 Step 3 — Traffic Splitting (Istio VirtualService)"]
+    root --> node_15["🔧 Step 4 — Destination Rule (define versions)"]
+    root --> node_16["➕ Step 5 — Increase Canary Share"]
+    root --> node_17["🛑 Step 6 — Instant Rollback"]
+    root --> node_18["🎉 Lesson 21 Completed!"]
+    root --> node_19["👉 Ready for Lesson 22?"]
+```
+
+
 Absolutely! ✔️
 Welcome to **Lesson 21**, and this one teaches you something **EVERY real DevOps team MUST master**:
 

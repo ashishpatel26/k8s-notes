@@ -1,5 +1,22 @@
 # 🗄️  Lesson 5: Persistent Volumes (Storage for Databases & Apps)
 
+```mermaid
+graph LR
+    root["🗄️  Lesson 5: Persistent Volumes (Storage for Databases & Apps)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["💡 Why Do We Need Storage?"]
+    root --> node_1["🌱 Part 1 — Create a PVC (Beginner Way)"]
+    root --> node_2["⚙️ Part 2 — Use PVC in a Pod (Beginner Example)"]
+    root --> node_3["🎉 Let’s Test If It Works"]
+    root --> node_4["🔥 Part 3 — Real-World Example: MySQL Database"]
+    node_4 --> node_5["Step 1 — PVC"]
+    node_4 --> node_6["Step 2 — MySQL Deployment"]
+    root --> node_7["🧠 Summary (Beginner-Friendly)"]
+    root --> node_8["🎉 Lesson 5 Completed!"]
+    root --> node_9["👉 Ready for Lesson 6?"]
+```
+
+
 Great! ✔️
 
 Time for **Lesson 5** — a MAJOR real-world DevOps skill:

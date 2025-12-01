@@ -1,5 +1,33 @@
 # 💰 Lesson 27: **Kubernetes Cost Optimization & FinOps (Real Cloud Savings)**
 
+```mermaid
+graph LR
+    root["💰 Lesson 27: Kubernetes Cost Optimization & FinOps (Real Cloud Savings)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Kubernetes Becomes Expensive"]
+    root --> node_1["🧱 PART 1 — Resource Requests & Limits (HUGE SAVINGS)"]
+    node_1 --> node_2["FIX: Right-Sizing"]
+    root --> node_3["🧱 PART 2 — Use Cluster Autoscaler (CA)"]
+    root --> node_4["🧱 PART 3 — Use SPOT / PREEMPTIBLE Nodes (Massive Savings)"]
+    root --> node_5["🧱 PART 4 — Use Efficient Instance Types"]
+    root --> node_6["🧱 PART 5 — Reduce Log & Metrics Costs"]
+    node_6 --> node_7["Optimize:"]
+    root --> node_8["🧱 PART 6 — Optimize Container Images"]
+    root --> node_9["🧱 PART 7 — Autoscaling Improvements (HPA + KEDA)"]
+    node_9 --> node_10["HPA"]
+    node_9 --> node_11["KEDA"]
+    root --> node_12["🧱 PART 8 — Pod Density Optimization"]
+    root --> node_13["🧱 PART 9 — Use “Requests” Correctly (Most Misunderstood)"]
+    root --> node_14["🧱 PART 10 — Use FinOps Tools"]
+    node_14 --> node_15["🔹 Kubecost (most used)"]
+    node_14 --> node_16["🔹 Goldilocks"]
+    node_14 --> node_17["🔹 AWS Cost Explorer / GCP Billing / Azure Cost Management"]
+    root --> node_18["📉 EXAMPLE: Real Savings Scenario"]
+    root --> node_19["🎉 Lesson 27 Completed!"]
+    root --> node_20["👉 Ready for Lesson 28?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 27**, and this one will SAVE REAL MONEY in cloud environments — a **must-know** skill for DevOps and FinOps engineers:

@@ -1,4 +1,17 @@
-﻿# 💡 Lesson 1: What is Kubernetes (Super Beginner Explanation)
+# 💡 Lesson 1: What is Kubernetes (Super Beginner Explanation)
+
+```mermaid
+graph LR
+    root["💡 Lesson 1: What is Kubernetes (Super Beginner Explanation)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["✔️ First Kubernetes File You'll Learn: A Deployment"]
+    root --> node_1["🧠 Explanation in Simple Words"]
+    root --> node_2["✔️ Step 2: A Service (To Expose Your App)"]
+    node_2 --> node_3["Simple Explanation:"]
+    root --> node_4["✔️ How to Run It (If You Want to Try)"]
+    root --> node_5["🎉 You Just Wrote Kubernetes Code!"]
+    root --> node_6["Want the next lesson?"]
+```
 
 Kubernetes (often called **K8s**) is a tool that helps you run applications in **containers** (like Docker) and makes sure they stay running.
 
@@ -15,6 +28,7 @@ And you write _YAML files_ to tell Kubernetes what you want.
 ----------
 
 # ✔️ First Kubernetes File You'll Learn: A **Deployment**
+
 
 This YAML file tells Kubernetes:
 

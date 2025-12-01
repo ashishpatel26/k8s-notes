@@ -1,5 +1,24 @@
 # 🎩  Lesson 7: Helm Charts – Professional Kubernetes Packaging
 
+```mermaid
+graph LR
+    root["🎩  Lesson 7: Helm Charts – Professional Kubernetes Packaging"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Is Helm?"]
+    root --> node_1["🧱 Lesson Overview"]
+    root --> node_2["🛠️ Step 1 — Install Helm"]
+    root --> node_3["🧱 Step 2 — Create a Helm Chart"]
+    root --> node_4["📦 Step 3 — Chart.yaml (Metadata)"]
+    root --> node_5["⚙️ Step 4 — Customize values.yaml"]
+    root --> node_6["🧩 Step 5 — Deployment Template"]
+    root --> node_7["🛰️ Step 6 — Deploy Your Helm Chart"]
+    root --> node_8["♻️ Step 7 — Upgrade Your App"]
+    root --> node_9["🗑️ Step 8 — Uninstall App"]
+    root --> node_10["🎉 Lesson 7 Completed!"]
+    root --> node_11["👉 Ready for Lesson 8?"]
+```
+
+
 Excellent! ✔️
 
 Time for **Lesson 7** — and this one is a *major upgrade* to your DevOps skills.

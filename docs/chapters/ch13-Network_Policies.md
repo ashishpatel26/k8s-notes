@@ -1,5 +1,26 @@
 # 🔒 Lesson 13: **Network Policies — Kubernetes Firewalls**
 
+```mermaid
+graph LR
+    root["🔒 Lesson 13: Network Policies — Kubernetes Firewalls"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Network Policies Matter"]
+    root --> node_1["🧱 Step 1 — Prerequisite: Network Policy Engine"]
+    root --> node_2["🟦 Step 2 — Understand Label-Based Traffic Control"]
+    root --> node_3["🚫 Step 3 — Default Deny Policy"]
+    root --> node_4["🟢 Step 4 — Allow Frontend → Backend Only"]
+    root --> node_5["🔐 Step 5 — Allow Backend → Database Only"]
+    root --> node_6["🌎 Step 6 — Allow Egress to Internet (Optional)"]
+    root --> node_7["🧪 Step 7 — Testing Network Policies (Fun!)"]
+    node_7 --> node_8["Test allowed traffic:"]
+    node_7 --> node_9["Test blocked traffic:"]
+    node_7 --> node_10["Test random pod:"]
+    root --> node_11["🔥 Real-World Network Policy Architecture"]
+    root --> node_12["🎉 Lesson 13 Completed!"]
+    root --> node_13["👉 Ready for Lesson 14?"]
+```
+
+
 Amazing! ✔️
 
 Welcome to **Lesson 13**, and this one takes you deeper into *cluster security* — something every real DevOps/SRE must master:

@@ -1,5 +1,45 @@
 # ⚡ **Lesson 31 — Kubernetes Performance Tuning (High-Speed Clusters)**
 
+```mermaid
+graph LR
+    root["⚡ Lesson 31 — Kubernetes Performance Tuning (High-Speed Clusters)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Performance Tuning Matters"]
+    root --> node_1["🧱 PART 1 — Tune the Kubelet"]
+    node_1 --> node_2["✔️ Increase Pod Burst Capacity"]
+    node_1 --> node_3["✔️ Increase Image Pull Performance"]
+    node_1 --> node_4["✔️ Tune Pod Termination Grace Period"]
+    root --> node_5["🧱 PART 2 — Scheduler Performance (Smart Scheduling)"]
+    node_5 --> node_6["✔️ Enable Pod Topology Spread"]
+    node_5 --> node_7["✔️ Use Pod Priority for mission-critical services"]
+    root --> node_8["🧱 PART 3 — Tune Resource Requests & Limits"]
+    node_7 --> node_9["If requests too high → waste"]
+    node_7 --> node_10["If requests too low → pod evictions / throttling"]
+    root --> node_11["🧱 PART 4 — Tune Autoscaling (HPA)"]
+    node_7 --> node_12["Fix 1: Decrease stabilization window"]
+    node_7 --> node_13["Fix 2: Faster reaction"]
+    node_7 --> node_14["Fix 3: Add KEDA for event-driven scaling"]
+    root --> node_15["🧱 PART 5 — Deployment Performance Optimizations"]
+    node_15 --> node_16["✔️ Use RollingUpdate strategy (safe + fast)"]
+    node_15 --> node_17["✔️ Enable startupProbe for slow apps"]
+    root --> node_18["🧱 PART 6 — Node Performance"]
+    node_18 --> node_19["✔️ Use Node Local DNS Cache (HUGE SPEEDUP)"]
+    node_18 --> node_20["✔️ Use bigger nodes (counterintuitive but true)"]
+    node_18 --> node_21["✔️ Use containerd instead of Docker"]
+    root --> node_22["🧱 PART 7 — Networking Performance Tuning"]
+    node_22 --> node_23["✔️ Switch to Cilium (fastest CNI available)"]
+    node_22 --> node_24["✔️ Use NodeLocal DNS"]
+    node_22 --> node_25["✔️ Enable keepalive for long-lived connections"]
+    root --> node_26["🧱 PART 8 — Persistent Volume Tuning"]
+    node_26 --> node_27["✔️ Use SSD-backed storage"]
+    node_26 --> node_28["✔️ Tune ReadWriteMany workloads"]
+    root --> node_29["🧱 PART 9 — Logging & Monitoring Optimization"]
+    node_28 --> node_30["Best practices:"]
+    root --> node_31["🎉 Lesson 31 Completed!"]
+    root --> node_32["👉 Ready for Lesson 32?"]
+```
+
+
 This lesson is **super valuable** for large-scale apps, CI/CD pipelines, high-traffic APIs, databases, and enterprise clusters.
 
 You will learn how to make Kubernetes:

@@ -1,5 +1,28 @@
 # 🤖 **GitOps with ArgoCD — Full Kubernetes Automation**
 
+```mermaid
+graph LR
+    root["🤖 GitOps with ArgoCD — Full Kubernetes Automation"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What is GitOps?"]
+    root --> node_1["🧱 PART 1 — Install ArgoCD"]
+    root --> node_2["🔑 PART 2 — Get the ArgoCD Admin Password"]
+    root --> node_3["🌍 PART 3 — Access ArgoCD UI"]
+    root --> node_4["🧱 PART 4 — GitOps Repository Structure (Industry Standard)"]
+    root --> node_5["📦 PART 5 — Create Your First App in ArgoCD"]
+    root --> node_6["🔁 PART 6 — Auto Sync (Continuous Deployment)"]
+    root --> node_7["⚠️ PART 7 — Self-Healing (Drift Detection)"]
+    root --> node_8["🔄 PART 8 — Rollbacks"]
+    root --> node_9["🧠 PART 9 — Multi-Environment with ArgoCD"]
+    node_9 --> node_10["dev"]
+    node_9 --> node_11["stage"]
+    node_9 --> node_12["prod"]
+    root --> node_13["🏗️ PART 10 — ArgoCD + Kustomize = ❤️"]
+    root --> node_14["🎉 Lesson 24 Completed!"]
+    root --> node_15["👉 Ready for Lesson 25?"]
+```
+
+
 Excellent! ✔️
 
 Welcome to **Lesson 24** — this one is one of the MOST valuable skills in modern DevOps:

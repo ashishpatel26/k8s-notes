@@ -1,5 +1,34 @@
 # ⚙️ Lesson 28: **Cluster Autoscaler (CA) + Node Pool Scaling Deep Dive**
 
+```mermaid
+graph LR
+    root["⚙️ Lesson 28: Cluster Autoscaler (CA) + Node Pool Scaling Deep Dive"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Is Cluster Autoscaler?"]
+    node_0 --> node_1["🟢 Adds nodes when:"]
+    node_0 --> node_2["🔴 Removes nodes when:"]
+    root --> node_3["🧱 PART 1 — Node Pools (The Foundation)"]
+    root --> node_4["🧩 Example Node Pool Labels"]
+    root --> node_5["🧱 PART 2 — Install Cluster Autoscaler (AWS Example)"]
+    node_5 --> node_6["1. Install CA YAML"]
+    node_5 --> node_7["2. Patch tags for autodiscovery"]
+    node_5 --> node_8["3. Tell CA the cluster name:"]
+    root --> node_9["🧪 PART 3 — Autoscaling in Action"]
+    node_9 --> node_10["Scenario:"]
+    root --> node_11["🔄 PART 4 — Scale Down (Save Money Automatically)"]
+    root --> node_12["🌀 PART 5 — Priority-Based Pod Scheduling (Super Important)"]
+    root --> node_13["🧠 PART 6 — Spot + On-Demand Hybrid Scaling (Enterprise Standard)"]
+    node_13 --> node_14["Architecture:"]
+    node_13 --> node_15["On-demand node pool:"]
+    node_13 --> node_16["Spot node pool:"]
+    node_13 --> node_17["Pod assignment:"]
+    root --> node_18["🔥 PART 7 — Bin-Packing Strategy (Advanced Optimization)"]
+    root --> node_19["🧱 PART 8 — Karpenter (Next Generation Autoscaler)"]
+    root --> node_20["🎉 Lesson 28 Completed!"]
+    root --> node_21["👉 Ready for Lesson 29?"]
+```
+
+
 Awesome! ✔️
 
 Welcome to **Lesson 28**, and this one is absolutely essential for running **large production Kubernetes clusters**:

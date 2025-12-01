@@ -1,5 +1,24 @@
 # 🛟 Lesson 23: **Kubernetes Backups + Disaster Recovery with Velero**
 
+```mermaid
+graph LR
+    root["🛟 Lesson 23: Kubernetes Backups + Disaster Recovery with Velero"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Velero Can Backup"]
+    root --> node_1["🧱 PART 1 — Install Velero CLI"]
+    root --> node_2["🧱 PART 2 — Install Velero on the Cluster (Using S3 Example)"]
+    root --> node_3["🎯 PART 3 — Create a Backup"]
+    root --> node_4["💥 PART 4 — Simulate Disaster (Fun & Scary)"]
+    root --> node_5["🛟 PART 5 — Restore Everything"]
+    root --> node_6["🔁 PART 6 — Schedule Automatic Backups"]
+    root --> node_7["🌍 PART 7 — Multi-Cluster Disaster Recovery (Advanced)"]
+    root --> node_8["🧠 PART 8 — What Velero CANNOT Restore (Important!)"]
+    root --> node_9["🔐 PART 9 — Real-World Production DR Best Practices"]
+    root --> node_10["🎉 Lesson 23 Completed!"]
+    root --> node_11["👉 Ready for Lesson 24?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 23**, and this one is CRITICAL for real-world production clusters:

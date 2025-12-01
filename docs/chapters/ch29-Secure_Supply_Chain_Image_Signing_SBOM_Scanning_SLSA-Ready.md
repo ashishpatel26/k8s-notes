@@ -1,5 +1,35 @@
 # 🔐 Lesson 29: **Secure Supply Chain — Image Signing, SBOM, Scanning (SLSA-Ready)**
 
+```mermaid
+graph LR
+    root["🔐 Lesson 29: Secure Supply Chain — Image Signing, SBOM, Scanning (SLSA-Ready)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Supply Chain Security Matters"]
+    root --> node_1["🧱 PART 1 — Install the Core Tools"]
+    node_1 --> node_2["Install Cosign (image signing)"]
+    node_1 --> node_3["Install Syft (SBOM)"]
+    node_1 --> node_4["Install Grype (vulnerability scanning)"]
+    node_1 --> node_5["Install Trivy (full security scanner)"]
+    root --> node_6["🧱 PART 2 — Generate an SBOM for Your Image"]
+    root --> node_7["🧪 PART 3 — Scan Image for Vulnerabilities"]
+    root --> node_8["🧱 PART 4 — Image Signing with Cosign (Sigstore)"]
+    node_8 --> node_9["Sign the Docker image:"]
+    root --> node_10["🔍 PART 5 — Verify the Signature"]
+    root --> node_11["🔐 PART 6 — Enforce Image Signing in Kubernetes"]
+    root --> node_12["🧱 PART 7 — Secure Supply Chain in CI/CD"]
+    node_12 --> node_13["Step 1 — Build"]
+    node_12 --> node_14["Step 2 — Scan image"]
+    node_12 --> node_15["Step 3 — Generate SBOM"]
+    node_12 --> node_16["Step 4 — Sign the image"]
+    node_12 --> node_17["Step 5 — Push SBOM to registry"]
+    node_12 --> node_18["Step 6 — Deploy via ArgoCD"]
+    root --> node_19["🔒 PART 8 — Prevent Running Vulnerable Images (OPA Gatekeeper)"]
+    root --> node_20["🌍 PART 9 — Real Enterprise Architecture"]
+    root --> node_21["🎉 Lesson 29 Completed!"]
+    root --> node_22["👉 Ready for Lesson 30?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 29**, and this one is INSANELY important for modern DevOps, platform engineering, and security teams:

@@ -1,5 +1,25 @@
 # 🔐 Lesson 14: **Sealed Secrets — Safely Managing Kubernetes Secrets in Git**
 
+```mermaid
+graph LR
+    root["🔐 Lesson 14: Sealed Secrets — Safely Managing Kubernetes Secrets in Git"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Sealed Secrets?"]
+    node_0 --> node_1["❌ Problem with normal Kubernetes Secrets:"]
+    node_0 --> node_2["✔️ Sealed Secrets fix this:"]
+    root --> node_3["🧱 Step 1 — Install Sealed Secrets Controller"]
+    root --> node_4["💻 Step 2 — Install kubeseal CLI (Your Local Machine)"]
+    root --> node_5["🔐 Step 3 — Create a Normal Kubernetes Secret (Locally)"]
+    root --> node_6["🪄 Step 4 — Seal the Secret"]
+    root --> node_7["🎯 Step 5 — Apply the Sealed Secret to Kubernetes"]
+    root --> node_8["🧪 Step 6 — Use the Secret in a Deployment"]
+    root --> node_9["🧠 Step 7 — Updating a Secret"]
+    root --> node_10["❗ VERY IMPORTANT — Cluster-Specific Encryption"]
+    root --> node_11["🎉 Lesson 14 Completed!"]
+    root --> node_12["👉 Ready for Lesson 15?"]
+```
+
+
 Perfect! ✔️
 Welcome to **Lesson 14** — one of the MOST IMPORTANT tools for **secure production Kubernetes**:
 

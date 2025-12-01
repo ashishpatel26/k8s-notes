@@ -1,5 +1,25 @@
 # ⚡ Lesson 20: **Advanced Autoscaling — HPA + VPA + KEDA (Event-Driven Scaling)**
 
+```mermaid
+graph LR
+    root["⚡ Lesson 20: Advanced Autoscaling — HPA + VPA + KEDA (Event-Driven Scaling)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["🧠 Part 1 — HPA (Horizontal Pod Autoscaler)"]
+    root --> node_1["🧠 Part 2 — VPA (Vertical Pod Autoscaler)"]
+    node_1 --> node_2["🚀 Install VPA"]
+    node_1 --> node_3["📦 Example VPA Config"]
+    node_1 --> node_4["🧪 See Recommended Resources"]
+    root --> node_5["🧠 Part 3 — KEDA (Event-Driven Autoscaling)"]
+    root --> node_6["🚀 Step 1 — Install KEDA"]
+    root --> node_7["📨 Example: Autoscale Based on RabbitMQ Queue Length"]
+    root --> node_8["🌐 Example: Autoscale Based on HTTP Request Rate"]
+    root --> node_9["🧠 Example: Cron Autoscaling (Scale Up on Schedule)"]
+    root --> node_10["🧩 Summary: When to Use What?"]
+    root --> node_11["🎉 Lesson 20 Completed!"]
+    root --> node_12["👉 Ready for Lesson 21?"]
+```
+
+
 Absolutely! ✔️
 Welcome to **Lesson 20**, and this is one of the MOST powerful DevOps skills you will ever learn:
 

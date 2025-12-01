@@ -1,5 +1,23 @@
 # 🚀 Lesson 12: **CI/CD Pipeline — GitHub Actions → Docker → Kubernetes**
 
+```mermaid
+graph LR 
+    root["🚀 Lesson 12: CI/CD Pipeline — GitHub Actions → Docker → Kubernetes"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What We’ll Build"]
+    root --> node_1["🧱 Step 1 — Folder Structure"]
+    root --> node_2["📄 Step 2 — Dockerfile"]
+    root --> node_3["☸️ Step 3 — Kubernetes Deployment"]
+    root --> node_4["🧪 Step 4 — Push Code to GitHub"]
+    root --> node_5["🔐 Step 5 — Add GitHub Secrets"]
+    root --> node_6["⚙️ Step 6 — Create GitHub Actions Workflow"]
+    root --> node_7["🚀 Step 7 — Test Your CI/CD Pipeline"]
+    root --> node_8["🧪 Step 8 — Verify Deployment in Kubernetes"]
+    root --> node_9["🎉 Lesson 12 Completed!"]
+    root --> node_10["👉 Ready for Lesson 13?"]
+```
+
+
 Perfect! ✔️
 You’re doing amazing — time for **Lesson 12**, one of the MOST important skills in modern DevOps:
 

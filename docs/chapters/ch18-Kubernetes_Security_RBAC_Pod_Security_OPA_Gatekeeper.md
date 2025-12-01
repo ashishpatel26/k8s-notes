@@ -1,5 +1,26 @@
 # 🛡️ Lesson 18: **Kubernetes Security: RBAC + Pod Security + OPA Gatekeeper**
 
+```mermaid
+graph LR
+    root["🛡️ Lesson 18: Kubernetes Security: RBAC + Pod Security + OPA Gatekeeper"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Overview of What We’ll Cover"]
+    root --> node_1["🔐 PART 1 — RBAC (Role-Based Access Control)"]
+    node_1 --> node_2["🧱 Step 1 — Create a Namespace"]
+    node_1 --> node_3["🧱 Step 2 — Create a Role (permissions inside namespace)"]
+    node_1 --> node_4["🧱 Step 3 — Bind the Role to a User"]
+    root --> node_5["🛡️ PART 2 — Pod Security Standards (PSS)"]
+    node_5 --> node_6["🧱 Step 4 — Apply Restricted Security"]
+    node_5 --> node_7["🧪 Test the security"]
+    root --> node_8["🧠 PART 3 — OPA Gatekeeper (Custom Policy Enforcement)"]
+    node_8 --> node_9["🧱 Step 5 — Install Gatekeeper"]
+    node_8 --> node_10["🛡️ Step 6 — Enforce “Resource Limits MUST exist”"]
+    node_8 --> node_11["🧪 Step 7 — Test the rule"]
+    root --> node_12["🎉 Lesson 18 Completed!"]
+    root --> node_13["👉 Ready for Lesson 19?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 18** — this one is CRITICAL for running **secure production Kubernetes** clusters:

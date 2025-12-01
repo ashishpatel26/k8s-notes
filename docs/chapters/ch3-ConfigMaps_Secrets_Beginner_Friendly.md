@@ -1,5 +1,21 @@
 # 🔐  Lesson 3: **ConfigMaps & Secrets (Beginner Friendly!)**
 
+```mermaid
+graph LR
+    root["🔐  Lesson 3: ConfigMaps & Secrets (Beginner Friendly!)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["🌱 Part 1 — ConfigMap (Safe, Non-Sensitive Config)"]
+    root --> node_1["🔌 Use ConfigMap in a Deployment"]
+    root --> node_2["🔐 Part 2 — Secrets (Passwords, Tokens, Keys)"]
+    node_2 --> node_3["Step 1: Encode the password"]
+    node_2 --> node_4["Step 2: Secret YAML"]
+    root --> node_5["🔌 Use Secret in Deployment"]
+    root --> node_6["🎯 Bonus: You can also mount ConfigMaps & Secrets as files"]
+    root --> node_7["🎉 Lesson 3 Completed!"]
+    root --> node_8["👉 What should we learn next?"]
+```
+
+
 Great! ✔️
  Moving to **Lesson 3** — one of the most important real-world DevOps skills:
 

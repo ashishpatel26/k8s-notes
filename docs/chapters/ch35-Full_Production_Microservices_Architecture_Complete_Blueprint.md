@@ -1,5 +1,40 @@
 # 🏗️ Lesson 35: **Full Production Microservices Architecture (End-to-End Blueprint)**
 
+```mermaid
+graph LR
+    root["🏗️ Lesson 35: Full Production Microservices Architecture (End-to-End Blueprint)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["🌐 Full Architecture Overview (High-Level Diagram)"]
+    root --> node_1["🧱 PART 1 — Traffic Layer"]
+    node_1 --> node_2["🌐 1. Ingress / API Gateway"]
+    root --> node_3["🧱 PART 2 — Service Mesh Layer (Istio)"]
+    root --> node_4["🧱 PART 3 — Microservices Layer"]
+    root --> node_5["🧱 PART 4 — Data Layer"]
+    root --> node_6["🧱 PART 5 — Secrets & Config Management"]
+    node_2 --> node_7["🔐 External Secrets Operator (BEST)"]
+    node_2 --> node_8["🔐 SealedSecrets"]
+    node_2 --> node_9["🔐 Vault (HashiCorp)"]
+    root --> node_10["🧱 PART 6 — CI/CD + GitOps Pipeline"]
+    root --> node_11["🧱 PART 7 — Observability Stack"]
+    node_2 --> node_12["Metrics:"]
+    node_2 --> node_13["Logs:"]
+    node_2 --> node_14["Tracing:"]
+    node_2 --> node_15["Visualization:"]
+    root --> node_16["🧱 PART 8 — Resilience & Reliability Layer"]
+    node_2 --> node_17["✔️ Retries"]
+    node_2 --> node_18["✔️ Circuit breakers"]
+    node_2 --> node_19["✔️ Outlier detection"]
+    node_2 --> node_20["✔️ Pod disruption budgets"]
+    node_2 --> node_21["✔️ Health probes"]
+    node_2 --> node_22["✔️ Graceful shutdown"]
+    node_2 --> node_23["✔️ Rate limiting"]
+    root --> node_24["🧱 PART 9 — Multi-Cluster / Global Architecture"]
+    root --> node_25["🧱 PART 10 — Security Model"]
+    root --> node_26["🎉 Lesson 35 Completed!"]
+    root --> node_27["👉 Ready for Lesson 36?"]
+```
+
+
 Perfect! ✔️
 
 Welcome to **Lesson 35**, and this one is *HUGE* because it brings everything together into a **real-world, production-ready blueprint** used by FAANG-level companies:

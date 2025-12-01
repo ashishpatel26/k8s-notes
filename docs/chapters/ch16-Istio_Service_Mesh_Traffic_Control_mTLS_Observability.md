@@ -1,5 +1,27 @@
 # 🕸️ Lesson 16: **Istio Service Mesh — Traffic Control + mTLS + Observability**
 
+```mermaid
+graph LR
+    root["🕸️ Lesson 16: Istio Service Mesh — Traffic Control + mTLS + Observability"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Is a Service Mesh?"]
+    root --> node_1["🧱 Step 1 — Install Istio (Easy Way)"]
+    root --> node_2["🧩 Step 2 — Label Your Namespace to Enable Sidecars"]
+    root --> node_3["🧪 Step 3 — Deploy a Sample App into the Mesh"]
+    node_3 --> node_4["backend.yaml"]
+    node_3 --> node_5["backend-service.yaml"]
+    node_3 --> node_6["frontend.yaml"]
+    node_3 --> node_7["frontend-service.yaml"]
+    root --> node_8["🔐 Step 4 — Enable mTLS (Zero-Trust Security)"]
+    root --> node_9["🔀 Step 5 — Add Traffic Management (Canary Release)"]
+    node_9 --> node_10["backend-v2.yaml"]
+    root --> node_11["⚡ Step 6 — Istio VirtualService (traffic splitting)"]
+    root --> node_12["🔍 Step 7 — Observability with Kiali"]
+    root --> node_13["🎉 Lesson 16 Completed!"]
+    root --> node_14["👉 Ready for Lesson 17?"]
+```
+
+
 Awesome! ✔️
 
 Welcome to **Lesson 16**, and this one jumps into *advanced, production-grade Kubernetes networking*:

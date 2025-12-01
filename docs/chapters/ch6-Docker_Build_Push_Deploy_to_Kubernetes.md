@@ -1,5 +1,23 @@
 # 🐳➡️☸️  Lesson 6: Docker → Build → Push → Deploy to Kubernetes
 
+```mermaid
+graph LR
+    root["🐳➡️☸️  Lesson 6: Docker → Build → Push → Deploy to Kubernetes"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Overview of What We Will Do"]
+    root --> node_1["🧱 Step 1 — Create a Simple App"]
+    root --> node_2["🐳 Step 2 — Create a Dockerfile"]
+    root --> node_3["⚙️ Step 3 — Build the Docker Image"]
+    root --> node_4["☁️ Step 4 — Push Image to Docker Hub"]
+    root --> node_5["☸️ Step 5 — Deploy Image to Kubernetes"]
+    root --> node_6["🌐 Step 6 — Expose It Using a Service"]
+    root --> node_7["🚀 Step 7 — Access Your App"]
+    root --> node_8["🧠 Recap (Beginner-Friendly)"]
+    root --> node_9["🎉 Lesson 6 Completed!"]
+    root --> node_10["👉 Ready for Lesson 7?"]
+```
+
+
 Great! ✔️
 
 Welcome to **Lesson 6**, and this one is a HUGE step toward becoming a real DevOps engineer:

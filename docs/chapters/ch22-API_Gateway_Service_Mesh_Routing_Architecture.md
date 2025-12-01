@@ -1,5 +1,31 @@
 # 🌐 **Lesson 22: API Gateway + Service Mesh Routing Architecture**
 
+```mermaid
+graph LR
+    root["🌐 Lesson 22: API Gateway + Service Mesh Routing Architecture"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Do We Need BOTH?"]
+    node_0 --> node_1["🚪 API Gateway = External Door"]
+    node_0 --> node_2["🔀 Service Mesh = Internal Smart Network"]
+    root --> node_3["🏗️ Let’s Build a REAL ARCHITECTURE"]
+    root --> node_4["🧱 PART 1 — Install Istio (Service Mesh)"]
+    root --> node_5["🧱 PART 2 — Label Namespace for Sidecar Injection"]
+    root --> node_6["🧱 PART 3 — Deploy Microservices into the Mesh"]
+    node_2 --> node_7["Backend"]
+    node_2 --> node_8["Frontend"]
+    root --> node_9["🧱 PART 4 — API Gateway (External Entry)"]
+    node_9 --> node_10["OPTION A — Istio Gateway (built-in)"]
+    node_10 --> node_11["Step 1: Create Gateway"]
+    node_9 --> node_12["🧱 PART 5 — Route Internet → Frontend → Backend"]
+    root --> node_13["🔐 PART 6 — Add TLS (HTTPS)"]
+    root --> node_14["🛡️ PART 7 — Apply Zero-Trust Security (mTLS)"]
+    root --> node_15["🛡️ PART 8 — Apply Service-to-Service Authorization (RBAC)"]
+    root --> node_16["🎯 FULL ARCHITECTURE YOU JUST BUILT"]
+    root --> node_17["🎉 Lesson 22 Completed!"]
+    root --> node_18["👉 Ready for Lesson 23?"]
+```
+
+
 Absolutely! ✔️
 Welcome to **Lesson 22** — this one is CRITICAL if you're building real microservices or enterprise-grade Kubernetes:
 

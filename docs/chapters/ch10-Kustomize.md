@@ -1,5 +1,23 @@
 # 🎨 Lesson 10: **Kustomize — Environment Overlays Done Right**
 
+```mermaid
+graph LR
+    root["🎨 Lesson 10: Kustomize — Environment Overlays Done Right"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Kustomize?"]
+    root --> node_1["🧱 Step 1 — Create Project Structure"]
+    root --> node_2["📦 Step 2 — Base Deployment"]
+    root --> node_3["⚙️ Step 3 — Base kustomization.yaml"]
+    root --> node_4["🧩 Step 4 — Dev Overlay"]
+    root --> node_5["🧪 Step 5 — Stage Overlay"]
+    root --> node_6["🏭 Step 6 — Prod Overlay"]
+    root --> node_7["🚀 Step 7 — Deploying with Kustomize"]
+    root --> node_8["🔍 Step 8 — Viewing Rendered YAML"]
+    root --> node_9["🎉 Lesson 10 Completed!"]
+    root --> node_10["👉 Ready for Lesson 11?"]
+```
+
+
 Perfect! ✔️
 
 Welcome to **Lesson 10**, and this one is ESSENTIAL for *real DevOps work* — especially when managing **Dev / Stage / Prod** environments.

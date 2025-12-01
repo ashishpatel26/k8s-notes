@@ -215,3 +215,4 @@ kubectl get pods -o jsonpath='{.items[*].status.containerStatuses[*].ready}'
 
 # Check pod restarts
 kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'
+```

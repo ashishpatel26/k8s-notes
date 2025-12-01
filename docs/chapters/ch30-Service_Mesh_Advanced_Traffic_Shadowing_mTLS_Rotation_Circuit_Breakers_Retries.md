@@ -1,5 +1,28 @@
 # 🕸️ Lesson 30: **Service Mesh Advanced — Traffic Shadowing, mTLS Rotation, Circuit Breakers, Retries**
 
+```mermaid
+graph LR
+    root["🕸️ Lesson 30: Service Mesh Advanced — Traffic Shadowing, mTLS Rotation, Circuit Breakers, Retries"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What You Will Learn Today"]
+    root --> node_1["🧱 PART 1 — Traffic Shadowing (Mirroring)"]
+    node_1 --> node_2["🧩 Example: Shadow Traffic from v1 → v2"]
+    root --> node_3["🧱 PART 2 — mTLS Certificate Rotation"]
+    node_3 --> node_4["🧩 Adjust certificate TTL"]
+    root --> node_5["🧱 PART 3 — Circuit Breakers (Prevent Cascading Failures)"]
+    node_5 --> node_6["🧩 DestinationRule with Circuit Breaker"]
+    root --> node_7["🧱 PART 4 — Retries + Timeouts (Super Important!)"]
+    node_7 --> node_8["🧩 Add retries"]
+    node_7 --> node_9["🧩 Add timeouts"]
+    root --> node_10["🧱 PART 5 — Fault Injection (Chaos Testing)"]
+    root --> node_11["🧱 PART 6 — Header-Based Routing (Advanced Canary)"]
+    root --> node_12["🧱 PART 7 — Traffic Splitting with Percentages"]
+    root --> node_13["🧱 PART 8 — Automatic Outlier Detection"]
+    root --> node_14["🎉 Lesson 30 Completed!"]
+    root --> node_15["👉 Ready for Lesson 31?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 30**, and this one is 🔥 *SUPER ADVANCED* — the kind of knowledge only senior platform engineers and service mesh architects use:

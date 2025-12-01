@@ -1,5 +1,47 @@
 # 🛡️ Lesson 25: **CIS Kubernetes Hardening (Deep Production Security)**
 
+```mermaid
+graph LR
+    root["🛡️ Lesson 25: CIS Kubernetes Hardening (Deep Production Security)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Is “CIS Kubernetes Hardening”?"]
+    root --> node_1["🧱 PART 1 — API Server Hardening"]
+    node_1 --> node_2["✔️ 1. Disable Anonymous Access"]
+    node_1 --> node_3["✔️ 2. Enable RBAC"]
+    node_1 --> node_4["✔️ 3. Enable Audit Logging"]
+    root --> node_5["🧱 PART 2 — Kubelet Hardening"]
+    node_5 --> node_6["✔️ 4. Disable read-only kubelet port"]
+    node_5 --> node_7["✔️ 5. Enable Webhook Authentication"]
+    node_5 --> node_8["✔️ 6. Enable Webhook Authorization"]
+    root --> node_9["🧱 PART 3 — Node Hardening"]
+    node_9 --> node_10["✔️ 7. Disable SSH into nodes"]
+    node_9 --> node_11["✔️ 8. Enforce AppArmor or SELinux"]
+    node_9 --> node_12["✔️ 9. Ensure container runtime security"]
+    root --> node_13["🧱 PART 4 — RBAC Security (Identity & Access)"]
+    node_13 --> node_14["✔️ 10. Create Least-Privilege Roles"]
+    node_13 --> node_15["✔️ 11. Separate Dev / Stage / Prod Access"]
+    root --> node_16["🧱 PART 5 — Pod Security (VERY important)"]
+    node_16 --> node_17["✔️ 12. Never Run as Root"]
+    node_16 --> node_18["✔️ 13. Disable Privileged Mode"]
+    node_16 --> node_19["✔️ 14. Read-Only Filesystem"]
+    node_16 --> node_20["✔️ 15. Drop All Linux Capabilities"]
+    root --> node_21["🧱 PART 6 — Network Security"]
+    node_21 --> node_22["✔️ 16. Use Network Policies"]
+    node_21 --> node_23["✔️ 17. Encrypt Internal Traffic (mTLS)"]
+    root --> node_24["🧱 PART 7 — Secrets & Data Security"]
+    node_24 --> node_25["✔️ 18. NEVER store secrets in plaintext YAML"]
+    node_24 --> node_26["✔️ 19. Encrypt Secrets at Rest"]
+    root --> node_27["🧱 PART 8 — Logging & Auditing"]
+    node_27 --> node_28["✔️ 20. Enable cluster-wide logging"]
+    root --> node_29["🧱 PART 9 — Tools to Scan CIS Compliance"]
+    node_28 --> node_30["🔹 kube-bench (MOST IMPORTANT)"]
+    node_28 --> node_31["🔹 kube-hunter (network attack scan)"]
+    node_28 --> node_32["🔹 Trivy (image vulnerability scanner)"]
+    root --> node_33["🎉 Lesson 25 Completed!"]
+    root --> node_34["👉 Ready for Lesson 26?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 25**, and this one is **EXTREMELY important** for real-world security teams and top-tier DevOps engineers:

@@ -1,5 +1,31 @@
 # 📈 Lesson 15: **Prometheus + Grafana — Full Kubernetes Monitoring Stack**
 
+```mermaid
+graph LR
+    root["📈 Lesson 15: Prometheus + Grafana — Full Kubernetes Monitoring Stack"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Are Prometheus & Grafana?"]
+    node_0 --> node_1["🧠 Prometheus"]
+    node_0 --> node_2["📊 Grafana"]
+    root --> node_3["🧱 Step 1 — Install Prometheus + Grafana via Helm (Easiest & Industry Standard)"]
+    root --> node_4["🚀 Step 2 — Install kube-prometheus-stack"]
+    root --> node_5["🧪 Step 3 — Access Grafana UI"]
+    node_5 --> node_6["Default login:"]
+    root --> node_7["📊 Step 4 — Explore Prebuilt Dashboards"]
+    root --> node_8["🧠 Step 5 — Prometheus Queries (PromQL)"]
+    node_8 --> node_9["Pod CPU Usage"]
+    node_8 --> node_10["Pod Memory Usage"]
+    node_8 --> node_11["Node CPU Usage (%)"]
+    node_8 --> node_12["Pod Restarts"]
+    root --> node_13["🚨 Step 6 — Alerts (AlertManager)"]
+    root --> node_14["📦 Step 7 — Add Custom Application Metrics (Optional but Powerful)"]
+    root --> node_15["🧱 Step 8 — Real-World Kubernetes Dashboards to Import"]
+    root --> node_16["🔥 Step 9 — Production Best Practices"]
+    root --> node_17["🎉 Lesson 15 Completed!"]
+    root --> node_18["👉 Ready for Lesson 16?"]
+```
+
+
 Absolutely! ✔️
 Welcome to **Lesson 15** — and this one is a **MUST-HAVE** for every real DevOps engineer and SRE:
 

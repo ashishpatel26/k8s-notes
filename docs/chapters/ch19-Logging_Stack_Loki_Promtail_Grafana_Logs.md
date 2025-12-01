@@ -1,5 +1,29 @@
 # 📜 Lesson 19: **Logging Stack — Loki + Promtail + Grafana Logs**
 
+```mermaid
+graph LR
+    root["📜 Lesson 19: Logging Stack — Loki + Promtail + Grafana Logs"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ How the Logging Stack Works"]
+    root --> node_1["🧱 Step 1 — Add Grafana Helm Repo"]
+    root --> node_2["🚀 Step 2 — Install Loki + Promtail + Grafana"]
+    node_2 --> node_3["Install Loki"]
+    root --> node_4["🎨 Step 3 — Access Grafana Logs UI"]
+    root --> node_5["🟦 Step 4 — View Logs in Grafana"]
+    node_5 --> node_6["Get all logs from any pod in namespace dev:"]
+    node_5 --> node_7["Filter by app label:"]
+    node_5 --> node_8["Search logs containing “error”"]
+    node_5 --> node_9["Search logs NOT containing “health”"]
+    root --> node_10["🔍 Step 5 — Promtail Config (How It Reads Logs)"]
+    root --> node_11["🎯 Step 6 — Add Custom Labels to Logs"]
+    root --> node_12["🧠 Step 7 — Create Alerts Based on Logs"]
+    root --> node_13["🪄 Step 8 — Log Retention (Very Important)"]
+    root --> node_14["📦 Step 9 — Centralizing Logs Across Multiple Clusters (Bonus)"]
+    root --> node_15["🎉 Lesson 19 Completed!"]
+    root --> node_16["👉 Ready for Lesson 20?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 19** — and this one is CRUCIAL for running real production clusters:

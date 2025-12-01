@@ -1,5 +1,41 @@
 # ☁️ Lesson 32: **Cloud-Native Deployments on EKS (AWS), GKE (Google), AKS (Azure)**
 
+```mermaid
+graph LR
+    root["☁️ Lesson 32: Cloud-Native Deployments on EKS (AWS), GKE (Google), AKS (Azure)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["🌍 SECTION 1 — Amazon EKS (AWS)"]
+    root --> node_1["⭐ Why companies love EKS:"]
+    root --> node_2["🧱 1. Create EKS Cluster (eksctl)"]
+    root --> node_3["🧱 2. Add Spot Node Pool (70–90% cheaper)"]
+    root --> node_4["🧱 3. Deploy LoadBalancer Service"]
+    root --> node_5["🧱 4. EKS Ingress (ALB Ingress Controller)"]
+    root --> node_6["🧱 5. IAM Roles for Service Accounts (IRSA)"]
+    root --> node_7["☁️ SECTION 2 — Google GKE (GCP)"]
+    root --> node_8["⭐ Why companies love GKE:"]
+    root --> node_9["🧱 1. Create GKE Cluster"]
+    root --> node_10["🧱 2. Add Node Pools"]
+    root --> node_11["🧱 3. GKE Ingress (Google Cloud LB)"]
+    root --> node_12["🧱 4. Workload Identity (NO service keys)"]
+    root --> node_13["☁️ SECTION 3 — Azure AKS"]
+    root --> node_14["⭐ Why companies choose AKS:"]
+    root --> node_15["🧱 1. Create AKS Cluster"]
+    root --> node_16["🧱 2. Add Spot Node Pool"]
+    root --> node_17["🧱 3. AKS Ingress (Application Gateway Ingress Controller)"]
+    root --> node_18["🧱 4. Azure AD Pod Identity"]
+    root --> node_19["🌐 SECTION 4 — Cross-Cloud Best Practices"]
+    node_19 --> node_20["✔️ 1. Use Terraform for Infra"]
+    node_19 --> node_21["✔️ 2. Use ArgoCD for GitOps"]
+    node_19 --> node_22["✔️ 3. Use Cluster Autoscaler"]
+    node_19 --> node_23["✔️ 4. Use Spot nodes for 70% of workloads"]
+    node_19 --> node_24["✔️ 5. Use managed services for:"]
+    node_19 --> node_25["✔️ 6. Use Service Mesh (Istio/Cilium)"]
+    node_19 --> node_26["✔️ 7. Standard folder layout"]
+    root --> node_27["🎉 Lesson 32 Completed!"]
+    root --> node_28["👉 Ready for Lesson 33?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 32**, and this one is MASSIVE — because now we take everything you learned and apply it to **real cloud platforms**:

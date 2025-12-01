@@ -1,5 +1,21 @@
 # 🧱 Lesson 11: **StatefulSets — Databases Done the Correct Way**
 
+```mermaid
+graph LR
+    root["🧱 Lesson 11: StatefulSets — Databases Done the Correct Way"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ What Makes a StatefulSet Special?"]
+    root --> node_1["🔧 Step 1 — Create a Headless Service"]
+    root --> node_2["🗄️ Step 2 — Persistent Volume Claims (Template)"]
+    root --> node_3["🧱 Step 3 — Create the StatefulSet"]
+    root --> node_4["🚀 Step 4 — Apply the configuration"]
+    root --> node_5["📦 Step 5 — Check PVCs"]
+    root --> node_6["🧪 Step 6 — Test Data Persistence"]
+    root --> node_7["🎉 Lesson 11 Completed!"]
+    root --> node_8["👉 Ready for Lesson 12?"]
+```
+
+
 Excellent! ✔️
 
 Welcome to **Lesson 11**, and this one is CRITICAL for running **real databases** in Kubernetes:

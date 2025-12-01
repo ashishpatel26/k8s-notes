@@ -19,6 +19,20 @@ This is a core DevOps skill. Let’s make it *super beginner-friendly*.
 
 # ⭐ Why Do We Need Autoscaling?
 
+```mermaid
+graph LR
+    root["⭐ Why Do We Need Autoscaling?"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["🧱 Requirement: Metrics Server Must Be Installed"]
+    root --> node_1["🧪 Step 1 — Create a Deployment with CPU Requests"]
+    root --> node_2["⚡ Step 2 — Create the HPA"]
+    root --> node_3["🤖 Step 3 — Test the Autoscaling (Fun!)"]
+    root --> node_4["🌙 Step 4 — Watch Scale-Down"]
+    root --> node_5["🎉 Lesson 8 Completed!"]
+    root --> node_6["👉 Ready for Lesson 9?"]
+```
+
+
 Imagine your website suddenly gets:
 
 - 10,000 users

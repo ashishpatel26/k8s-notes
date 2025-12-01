@@ -1,5 +1,32 @@
 # 🌍 Lesson 26 : **Multi-Cluster Kubernetes Architecture (Global Enterprise Grade)**
 
+```mermaid
+graph LR
+    root["🌍 Lesson 26 : Multi-Cluster Kubernetes Architecture (Global Enterprise Grade)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Multi-Cluster?"]
+    root --> node_1["🏗️ Multi-Cluster Architecture Patterns"]
+    root --> node_2["1️⃣ Cluster Per Environment (MOST COMMON)"]
+    root --> node_3["2️⃣ Cluster Per Region (Global Traffic)"]
+    root --> node_4["3️⃣ Multi-Cloud Clusters"]
+    root --> node_5["⭐ How Do Multi-Cluster Systems Communicate?"]
+    root --> node_6["🕸️ Model A — Federation (KubeFed)"]
+    root --> node_7["🕸️ Model B — Service Mesh Multi-Cluster (MOST POPULAR)"]
+    root --> node_8["🧱 PART 1 — Deploy Two Clusters"]
+    root --> node_9["🧱 PART 2 — Install Istio on BOTH Clusters"]
+    root --> node_10["🧱 PART 3 — Mesh Multi-Cluster Communication"]
+    root --> node_11["🧪 PART 4 — Deploy Same App to Both Clusters"]
+    root --> node_12["🧠 FAILOVER EXAMPLE (Production Use Case)"]
+    root --> node_13["🛰️ PART 5 — Global API Gateway"]
+    root --> node_14["🧱 PART 6 — GitOps for Multi-Cluster (ArgoCD)"]
+    root --> node_15["🌍 PART 7 — Multi-Cluster Database Strategy"]
+    root --> node_16["💰 PART 8 — Cost Optimization (Real-World Trick)"]
+    root --> node_17["🔐 PART 9 — Security Considerations"]
+    root --> node_18["🎉 Lesson 26 Completed!"]
+    root --> node_19["👉 Ready for Lesson 27?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 26**, and this one is **BIG** — the kind of thing only senior DevOps/SRE and platform engineers handle:

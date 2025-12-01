@@ -1,5 +1,21 @@
 # 🏷️ Lesson 9 : **Namespaces (Dev, Stage, Prod Environments)**
 
+```mermaid
+graph LR
+    root["🏷️ Lesson 9 : Namespaces (Dev, Stage, Prod Environments)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ Why Do We Need Namespaces?"]
+    root --> node_1["🧱 Step 1 — Create a Namespace"]
+    root --> node_2["⚙️ Step 2 — Deploy Apps Inside a Namespace"]
+    root --> node_3["☑️ Step 3 — Services in a Namespace"]
+    root --> node_4["📦 Step 4 — Switch Default Namespace"]
+    root --> node_5["🧠 Step 5 — Resource Quotas (Optional but Very Real)"]
+    root --> node_6["🧩 Step 6 — Why Namespaces Matter in Real DevOps"]
+    root --> node_7["🎉 Lesson 9 Completed!"]
+    root --> node_8["👉 Ready for Lesson 10?"]
+```
+
+
 Awesome! ✔️
 
 Welcome to **Lesson 9**, and this one is ESSENTIAL for every real DevOps engineer:

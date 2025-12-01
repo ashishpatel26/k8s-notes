@@ -1,5 +1,41 @@
 # 🛠️ Lesson 34: **Debugging Kubernetes Like a PRO — Advanced Troubleshooting**
 
+```mermaid
+graph LR
+    root["🛠️ Lesson 34: Debugging Kubernetes Like a PRO — Advanced Troubleshooting"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["⭐ GOLDEN RULE: ALWAYS START WITH THE POD"]
+    root --> node_1["🧱 PART 1 — POD STUCK IN PENDING"]
+    node_1 --> node_2["❌ Not enough CPU/memory"]
+    node_1 --> node_3["❌ NodeSelector / Taints mismatch"]
+    node_1 --> node_4["❌ PVC cannot bind"]
+    root --> node_5["🧱 PART 2 — CrashLoopBackOff"]
+    node_5 --> node_6["❌ Application error"]
+    node_5 --> node_7["❌ Wrong environment variables"]
+    node_5 --> node_8["❌ Missing secrets"]
+    node_5 --> node_9["❌ Wrong entrypoint / command"]
+    node_5 --> node_10["❌ Port mismatch"]
+    root --> node_11["🧱 PART 3 — ImagePullBackOff"]
+    node_11 --> node_12["❌ 403 / unauthenticated"]
+    node_11 --> node_13["❌ Image not found"]
+    node_11 --> node_14["❌ Rate limit (DockerHub)"]
+    root --> node_15["🧱 PART 4 — Liveness / Readiness Probe Failing"]
+    root --> node_16["🧱 PART 5 — DNS Issues"]
+    node_16 --> node_17["Fix CoreDNS:"]
+    root --> node_18["🧱 PART 6 — Service Not Routing Traffic"]
+    node_18 --> node_19["Check Endpoints"]
+    root --> node_20["🧱 PART 7 — Node Pressure (Evictions)"]
+    root --> node_21["🧱 PART 8 — CNI / Networking Issues"]
+    root --> node_22["🧱 PART 9 — Ingress Not Working"]
+    root --> node_23["🧱 PART 10 — Autoscaling Problems"]
+    node_23 --> node_24["HPA not scaling?"]
+    root --> node_25["🧱 PART 11 — Debugging From Inside the Pod"]
+    root --> node_26["🔥 MASTER FLOW — How Pros Debug Kubernetes"]
+    root --> node_27["🎉 Lesson 34 Completed!"]
+    root --> node_28["👉 Ready for Lesson 35?"]
+```
+
+
 Absolutely! ✔️
 
 Welcome to **Lesson 34**, and this one is *EXTREMELY valuable* because it turns you into the kind of DevOps/SRE engineer who can fix ANY production issue:

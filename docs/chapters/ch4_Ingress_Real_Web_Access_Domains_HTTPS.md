@@ -1,5 +1,24 @@
 # 🌍 Lesson 4:— Ingress (Real Web Access + Domains + HTTPS)
 
+```mermaid
+graph LR
+    root["🌍 Lesson 4:— Ingress (Real Web Access + Domains + HTTPS)"]
+    style root fill:#f9f,stroke:#333,stroke-width:2px
+    root --> node_0["💡 What Is Ingress?"]
+    root --> node_1["🧱 Ingress Requires an Ingress Controller"]
+    root --> node_2["🧪 Example App Setup (Service + Deployment)"]
+    node_2 --> node_3["Deployment:"]
+    node_2 --> node_4["Service:"]
+    root --> node_5["🚀 Now the Important Part: The Ingress"]
+    node_5 --> node_6["Ingress YAML:"]
+    root --> node_7["🧪 Test It (Minikube)"]
+    root --> node_8["🔥 Bonus: Route Multiple Apps With One Ingress"]
+    root --> node_9["🔐 HTTPS (TLS) with Cert-Manager (Next Level)"]
+    root --> node_10["🎉 Lesson 4 Completed!"]
+    root --> node_11["👉 Ready for Lesson 5?"]
+```
+
+
 Perfect! ✔️
  Welcome to **Lesson 4**, and this one is a BIG milestone in becoming a real DevOps engineer 🔨🤖🔧
 
